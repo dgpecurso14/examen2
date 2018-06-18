@@ -19,7 +19,7 @@ public class TestCalculadora extends AbstractVerticle {
     
     @Test
     public void fact() throws Exception {
-	
+	/*
     	if(false){  
       String result = sendGet("http://127.0.0.1:8080/api/factorial?b=5");
         logger.info(result);
@@ -52,6 +52,7 @@ public class TestCalculadora extends AbstractVerticle {
         logger.info(result);
         assertTrue("de ",result.contains("281"));
         }
+	*/
     }
 
     @Test
