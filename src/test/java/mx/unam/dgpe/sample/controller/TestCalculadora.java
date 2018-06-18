@@ -10,11 +10,11 @@ import static mx.unam.dgpe.sample.controller.RestUtil.*;
 public class TestCalculadora extends AbstractVerticle {
     private static final Logger logger = Logger.getLogger(TestMyController.class);
     
-    @Test
-    public void ok() throws Exception {
+    //@Test
+    //public void ok() throws Exception {
 //        String result = sendGet("https://www.binance.com/api/v3/ticker/price?symbol=BTCUSDT");
   //      logger.info(result);
-    }
+    //}
 
     
     @Test
@@ -55,9 +55,9 @@ public class TestCalculadora extends AbstractVerticle {
 	*/
     }
 
-    @Test
+   /* @Test
     public void suma() throws Exception {
-	/*
+	
     	if(true){  
       String result = sendGet("http://127.0.0.1:8081/api/suma?a=1&b=2");
         logger.info(result);
@@ -95,9 +95,9 @@ public class TestCalculadora extends AbstractVerticle {
         result = sendGet("http://127.0.0.1:8081/api/div?a=1&b=0");
         logger.info(result);
         assertTrue("Suma valores incorrectos",result.contains("Inexistente"));
-*/
 
-    }
+
+    }*/
 
 
 }
