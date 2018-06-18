@@ -8,7 +8,7 @@ import io.vertx.core.AbstractVerticle;
 import static mx.unam.dgpe.sample.controller.RestUtil.*;
 
 public class TestCalculadora extends AbstractVerticle {
-    private static final Logger logger = Logger.getLogger(TestMyController.class);
+    private static final Logger logger = Logger.getLogger(TestCalculadora.class);
     
     //@Test
     //public void ok() throws Exception {
